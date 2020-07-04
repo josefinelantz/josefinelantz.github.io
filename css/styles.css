@@ -9,7 +9,9 @@ h1 {
   color: #66BFBF;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
-  font-family: "Sacramento", cursive;
+  font-family: "Montserrat", sans-serif;
+
+  /* font-family: "Sacramento", cursive; */
 }
 
 h2 {
@@ -21,7 +23,7 @@ h2 {
 }
 
 h3 {
-  color: #11999E;
+  color: #66BFBF;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -38,7 +40,7 @@ a:hover {
 
 p {
   color: #40514E;
-  line-height: 2;
+  /* line-height: 2; */
 }
 
 hr {
@@ -55,11 +57,13 @@ hr {
 .top-container {
   background-color: #E4F9F5;
   position: relative;
-  padding-top: 100px;
+  padding-top: 20px;
 }
 
 .middle-container {
+
   margin: 100px 0;
+  padding: 50px 0 20px;
 }
 
 .bottom-container {
@@ -68,52 +72,9 @@ hr {
 }
 
 .skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-}
-
-.pro {
-  text-decoration: underline;
-}
-
-.intro {
-  width: 30%;
-  margin: auto;
-}
-
-.contact-message {
-  width: 40%;
-  margin: 40px auto 60px;
-}
-
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 40px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 250px;
-  bottom: 300px;
-}
-
-.dev-img {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-  border-radius: 100%;
-}
-
-.chili-img {
-  float: right;
-  margin-left: 30px;
-  width: 25%;
-}
-
-.dev-skill-description {
-
+  /* width: 50%; */
+  margin: 0 auto;
+  /* text-align: left; */
 }
 
 .btn {
@@ -141,10 +102,4 @@ hr {
   background-image: -o-linear-gradient(top, #30E3CB, #2BC48D);
   background-image: linear-gradient(to bottom, #30E3CB, #2BC48D);
   text-decoration: none;
-}
-
-.copyright-text {
-  color: #EAF6F6;
-  font-size: 0.75rem;
-  padding: 20px 0;
 }
