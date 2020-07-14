@@ -1,7 +1,6 @@
 body {
   color: #40514E;
   margin: 0;
-  text-align: center;
   font-family: "Merrieweather", serif;
 }
 
@@ -9,9 +8,8 @@ h1 {
   color: #66BFBF;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
-  font-family: "Montserrat", sans-serif;
-
-  /* font-family: "Sacramento", cursive; */
+  font-family: "Sacramento", cursive;
+  display: inline-block;
 }
 
 h2 {
@@ -19,7 +17,9 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
+  padding-top: 10px;
   padding-bottom: 10px;
+  margin: 0;
 }
 
 h3 {
@@ -30,12 +30,7 @@ h3 {
 a {
   color: #11999E;
   font-family: "Montserrat", sans-serif;
-  margin: 10px 20px;
   text-decoration: none;
-}
-
-a:hover {
-  color: #EAF6F6;
 }
 
 p {
@@ -43,14 +38,42 @@ p {
   /* line-height: 2; */
 }
 
-hr {
-  border: dotted #EAF6F6 6px;
-  border-bottom: none;
-  width: 4%;
-  margin: 100px auto;
+.info {
+  text-align: center;
+}
+
+.col {
+  text-align: center;
+}
+
+.row {
+  display: inline-block;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+
+
+
+.profile {
+  text-align: center;
+}
+
+.logo-img {
+  height: 150px;
+
+}
+
+.smak-img {
+  width: 200px;
+}
+
+.profile {
 }
 
 .profile-img {
+  height: 150px;
   border-radius: 50%;
 }
 
@@ -58,12 +81,19 @@ hr {
   background-color: #E4F9F5;
   position: relative;
   padding-top: 20px;
+  text-align: center;
 }
 
-.middle-container {
+.container {
+  margin: 0 100px;
+}
 
-  margin: 100px 0;
-  padding: 50px 0 20px;
+.text {
+  /* diplay: inline-block; */
+}
+.shout-out {
+  /* diplay: inline-block; */
+
 }
 
 .bottom-container {
@@ -75,6 +105,9 @@ hr {
   /* width: 50%; */
   margin: 0 auto;
   /* text-align: left; */
+}
+
+.btn.btn-secondary {
 }
 
 .btn {
@@ -89,8 +122,9 @@ hr {
   border-radius: 8px;
   color: #FFFFFF;
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   padding: 10px 20px 10px 20px;
+
   text-decoration: none;
 }
 
